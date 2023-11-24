@@ -9,62 +9,40 @@
     <title>Recanto da Beleza</title>
     <link rel="shortcut icon" type="image/png" href="lixador-de-unha.png">
 
-<style>
+<link rel="stylesheet" type="text/css" href="estiloo.css">
     
-h1{font-size: 50px;}
-
-    body{
-        font-family:brush script MT;
-    }
-
-    .cadastro{
-        background-color: rgb(255, 246, 252);
-        position: absolute;
-        padding: 70px;
-        top: 30%;
-        left: 42%;
-        border-radius: 15px;
-        font-size: large;
-    }
-
-    input{
-        padding: 15px;
-        outline: none;
-    }
-
-.enviar{
-    padding: 15px;
-    width: 100%;
-    background-color: #c8a2c8;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-}
-
-.cabeçalho{
-    background-color: #c8a2c8;
-}
-
-
-
-</style>
-
-
-
-    
-
-
-
 </head>
 
 <body>
     
-<div class="cabeçalho">
-<a href="index.html"><button>Home</button></a><    <h1>placeholder</h1>
-</div>
+<!--Cabeçalho-->
+    
+    <header>
+    <div class="header">
+        <a href="#default" class="logo"><img src="header-silhue.png"></a>
+        <h1>Recanto da Beleza</h1>
+        <div class="header-right">
+          <a href="#home">Home</a>
+          <a href="https://www.facebook.com/">Contatos</a>
+          <a href="#about">Serviços</a>
+          <a href="tela de cadastro.html">Cadastro</a>
+          <a href="https://maps.app.goo.gl/nFL6hmTViQNaPKNn9" target="_black" rel="external">Endereço</a>
+        </div>  
+    </header>
+
+<!--Cadastro-->
 
 <div class="cadastro">
  <h1>Cadastro</h1> 
+<br>
+<div class="Select">
+     <select class="custom-select">" name="Serviços" id="Serviços">
+      <option value="Pigmentação">Pigmentação</option>
+      <option value="Microagulhamento">Microagulhamento</option>
+      <option value="Depilação">Depilação</option>
+      <option value="Limpeza de pele">Limpeza de pele</option>
+    </select>
+</div> 
 <br>
 <input type="email" id="email" placeholder="xxxxx@email.com">
 <br>
